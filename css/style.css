@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+}
+
+div {
+	background-color: white;
+	height: 400px;
+	width: 300px;
+	border-radius: 10px;
+	border: 1px #aaa solid;
+	opacity: 0;
+}
+
+.left {
+	position: absolute;
+	top: 200px;
+	left: 80px;
+	background-color: red;
+	box-shadow: 30px 30px 15px #800;
+}
+
+.middle {
+	margin: 100px auto;
+	background-color: green;
+	box-shadow: 30px 30px 15px #050;
+}
+
+.right {
+	position: absolute;
+	top: 200px;
+	right: 80px;
+	background-color: blue;
+	box-shadow: 30px 30px 15px #008;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 50px;
+	letter-spacing: 10px;
+	color: white;
+	background: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(grey), to(white));
+	background: linear-gradient(0deg, white, grey, white);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.title {
+	background: linear-gradient(45deg, red, green, blue);
+	-webkit-background-clip: text;
+	color: transparent;
+}
